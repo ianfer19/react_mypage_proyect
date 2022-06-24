@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-size: 18px;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: Lato;
+    font-weight: 700;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 600px;
+}
+
+.container-languagues{
+    height: 90px;
+    width: 100px ;
+    margin: 10px 10px 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.image-languagues{
+    height: 100%;
+    width: 90px;
+}
+
+.container-languagues-box{
+    width: 100%;
+    max-width: 1200px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
